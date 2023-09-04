@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Sedgwick+Ave+Display&display=swap');
+
+body {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(/img/henry-ren-1nZGiOofraA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 50px;
+}
+
+nav h2 {
+    color: #ff7200;
+    font-size: 2em;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul li a:hover {
+    color: #ff7200;
+}
+
+.buscar {
+    background: transparent;
+    border: none;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.buscar:focus {
+    outline: none;
+}
+
+.buscar::placeholder {
+    color: #fff;
+}
+
+.form-de-busca {
+    border: 1px solid #ff7200;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.btn {
+    height: 40px;
+    background-color: #ff7200;
+    border: none;
+    width: 90px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    margin: 100px 50px;
+    gap: 250px;
+    align-items: center;
+}
+
+main section h1 {
+    color: #fff;
+    font-size: 3em;
+    font-family: 'poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+main section h1 strong {
+    color: #ff7200;
+}
+
+main section p {
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+}
+
+main section button {
+    color: #000;
+    background-color: #ff7200;
+    border: none;
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 1em;
+    font-family: 'poppins', sans-serif;
+    margin-top: 40px;
+}
+
+main section button:hover {
+    color: #fff;
+}
+
+.area-login {
+    background-color: #000000af;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    height: 420px;
+    gap: 10px;
+}
+
+.area-login h2 {
+    color: #ff7200;
+    font-family: 'poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.formulario-de-login {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.informacoes-login {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #ff7200;
+    padding: 10px;
+    color: #fff;
+}
+
+.informacoes-login:focus {
+    outline: none;
+}
+
+.informacoes-login::placeholder {
+    color: #fff;
+}
+
+.botao-entrar {
+    color: #000;
+    background-color: #ff7200;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.botao-entrar:hover {
+    color: #fff;
+}
+
+.cadastrar {
+    text-decoration: none;
+    color: #ff7200;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes-sociais li {
+    list-style: none;
+}
+
+.fa-brands {
+    color: #fff;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.fa-brands:hover {
+    color: #ff7200;
+}
+
+
+
+
+
+
